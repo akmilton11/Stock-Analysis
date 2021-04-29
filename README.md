@@ -10,6 +10,8 @@ The overview of project was to refactor the code you had written for Steve. The 
 ## Results: 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
+It was clearly a better year for stocks in 2017! All the stocks had a better performance in 2017 besides TERP. Hopefully they weighted their portfolio in ENPH and RUN in 2018. 
+
 #### Greenstock (2017)
 ![](Resources/VBA_Challenge_2017_Green_Stocks.PNG)
 
@@ -27,7 +29,6 @@ The overview of project was to refactor the code you had written for Steve. The 
 I was able to trim down certain code
 
 #### Greenstock
-               5c) get ending price for current ticker
                If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
                endingPrice = Cells(j, 6).Value
 
