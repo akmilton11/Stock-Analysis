@@ -8,7 +8,10 @@ The overview of project was to refactor the code you had written for Steve. The 
 
 
 ## Results:
+![](Resources/VBA_Challenge_2017.png)
 
+
+![](Resources/VBA_Challenge_2018.png)
 
 
 
