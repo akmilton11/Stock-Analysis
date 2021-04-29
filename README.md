@@ -7,19 +7,36 @@ The overview of project was to refactor the code you had written for Steve. The 
   * Improving the logic of the code to make it easier for future users to read
 
 
-## Results:
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+## Results: 
+### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 ![](Resources/VBA_Challenge_2017.PNG)
-
-
 ![](Resources/VBA_Challenge_2018.PNG)
+
+I was able to trim down certain sections of the code in order to make it more efficient.
+
+#### Greenstock
+For j = 2 To RowCount
+           '5a) Get total volume for current ticker
+           If Cells(j, 1).Value = ticker Then
+
+               totalVolume = totalVolume + Cells(j, 8).Value
+
+#### Refactored
+        '3b) Check if the current row is the first row with the selected tickerIndex.
+         If Cells(i - 1, 1).Value <> tickers(tickerindex) Then
+
+               tickerStartingPrices(tickerindex) = Cells(i, 6).Value
+
+         End If
 
 
 
 ## Summary:
    * What are the advantages or disadvantages of refactoring code?
-        a) The advantages of refactoring code is to create the code is fresher, easier to understand, less complex, and easier to maintain. It can make the code more flexible, in the case that there are other variables that may need to be added ot the functions.
-        b) The disadvantages of refactoring code is it is time consuming. You are 
+        1. The advantages of refactoring code is to create the code is fresher, easier to understand, less complex, and easier to maintain. 
+        2. It can make the code more flexible, in the case that there are other variables that may need to be added ot the functions.
+        3. The disadvantages of refactoring code is it is time consuming. You are attempting to alter a model that is already running somewhat efficiently. 
+        4. You run the risk of trying to overcomplicate a solved issue.
    * How do these pros and cons apply to refactoring the original VBA script?
-        a) 
+        1. I was able to run the code more efficiently which was one of the main goals of the project. We were tasked with not adding functionality but improving the logic.                  Obviously this being my first time with VBA - changing code that works is nerve racking. With this it becomes more of understanding the code rather than trying to jump in and change it.
