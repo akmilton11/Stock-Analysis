@@ -15,7 +15,7 @@ It was clearly a better year for stocks in 2017! All the stocks had a better per
 #### Greenstock (2017)
 ![](Resources/VBA_Challenge_2017_Green_Stocks.PNG)
 
-#### Refactored (2017)
+#### Refactored (2017) So much faster!!
 ![](Resources/VBA_Challenge_2017.PNG)
 
 ------------------------
@@ -23,7 +23,7 @@ It was clearly a better year for stocks in 2017! All the stocks had a better per
 #### Greenstock (2018)
 ![](Resources/VBA_Challenge_2018_Green_Stocks.PNG)
 
-#### Refactored (2018)
+#### Refactored (2018) Zoom!
 ![](Resources/VBA_Challenge_2018.PNG)
 
 I was able to trim down certain code
