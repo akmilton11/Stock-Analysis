@@ -11,25 +11,20 @@ The overview of project was to refactor the code you had written for Steve. The 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 ![](Resources/VBA_Challenge_2017.PNG)
+
+
 ![](Resources/VBA_Challenge_2018.PNG)
 
-I was able to trim down certain sections of the code in order to make it more efficient.
+I was able to trim down certain code
 
 #### Greenstock
-For j = 2 To RowCount
-           '5a) Get total volume for current ticker
-           If Cells(j, 1).Value = ticker Then
-
-               totalVolume = totalVolume + Cells(j, 8).Value
+               5c) get ending price for current ticker
+               If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+               endingPrice = Cells(j, 6).Value
 
 #### Refactored
-        '3b) Check if the current row is the first row with the selected tickerIndex.
-         If Cells(i - 1, 1).Value <> tickers(tickerindex) Then
-
-               tickerStartingPrices(tickerindex) = Cells(i, 6).Value
-
-         End If
-
+               If Cells(i + 1, 1).Value <> tickers(tickerindex) Then
+               tickerEndingPrices(tickerindex) = Cells(i, 6).Value
 
 
 ## Summary:
