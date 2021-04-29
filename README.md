@@ -10,12 +10,18 @@ The overview of project was to refactor the code you had written for Steve. The 
 ## Results: 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-#### Greenstock
+#### Greenstock (2017)
+![](Resources/VBA_Challenge_2017_Green_Stocks.PNG)
 
-
+#### Refactored (2017)
 ![](Resources/VBA_Challenge_2017.PNG)
 
+------------------------
 
+#### Greenstock (2018)
+![](Resources/VBA_Challenge_2018_Green_Stocks.PNG)
+
+#### Refactored (2018)
 ![](Resources/VBA_Challenge_2018.PNG)
 
 I was able to trim down certain code
