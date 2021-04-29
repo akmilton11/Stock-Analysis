@@ -28,7 +28,7 @@ It was clearly a better year for stocks in 2017! All the stocks had a better per
 
 Trimming down:
 
-#### Greenstock
+#### Green stock
                If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
                endingPrice = Cells(j, 6).Value
 
